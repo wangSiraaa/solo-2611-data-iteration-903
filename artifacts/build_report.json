@@ -1,0 +1,1702 @@
+{
+  "batch_size": 2000,
+  "counts_v1": {
+    "observations": 3987820,
+    "ok": 99696,
+    "rejected": 304,
+    "total": 100000
+  },
+  "db_bytes": 544026624,
+  "event_kinds": "reused",
+  "frame_count": 100000,
+  "ingest": {
+    "v1": {
+      "accepted": 99696,
+      "batch_size": 2000,
+      "product_sha256": "33c85539e4f719d243b6951651ac9190a43c7c16af552704eaa3f5fde8e13bc9",
+      "rejected": 304,
+      "rejections": [
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00000003",
+          "message": "invalid hex nibble 'G' at offset 87",
+          "position": 87
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00000005",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00000007",
+          "message": "unknown message bus='canA' frame_id=900007",
+          "position": null
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00000990",
+          "message": "unknown message bus='canB' frame_id=900028",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00000996",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00001000",
+          "message": "invalid hex nibble 'G' at offset 125",
+          "position": 125
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00001973",
+          "message": "unknown message bus='canA' frame_id=900012",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00001987",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00001997",
+          "message": "invalid hex nibble 'G' at offset 1",
+          "position": 1
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00002956",
+          "message": "unknown message bus='canB' frame_id=900033",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00002978",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00002994",
+          "message": "invalid hex nibble 'G' at offset 78",
+          "position": 78
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00003939",
+          "message": "unknown message bus='canA' frame_id=900017",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00003969",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00003991",
+          "message": "invalid hex nibble 'G' at offset 42",
+          "position": 42
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00004922",
+          "message": "unknown message bus='canB' frame_id=900001",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00004960",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00004988",
+          "message": "invalid hex nibble 'G' at offset 39",
+          "position": 39
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00005905",
+          "message": "unknown message bus='canA' frame_id=900022",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00005951",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00005985",
+          "message": "invalid hex nibble 'G' at offset 56",
+          "position": 56
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00006888",
+          "message": "unknown message bus='canB' frame_id=900006",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00006942",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00006982",
+          "message": "invalid hex nibble 'G' at offset 0",
+          "position": 0
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00007871",
+          "message": "unknown message bus='canA' frame_id=900027",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00007933",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00007979",
+          "message": "invalid hex nibble 'G' at offset 56",
+          "position": 56
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00008854",
+          "message": "unknown message bus='canB' frame_id=900011",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00008924",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00008976",
+          "message": "invalid hex nibble 'G' at offset 1",
+          "position": 1
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00009837",
+          "message": "unknown message bus='canA' frame_id=900032",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00009915",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00009973",
+          "message": "invalid hex nibble 'G' at offset 0",
+          "position": 0
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00010820",
+          "message": "unknown message bus='canB' frame_id=900016",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00010906",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00010970",
+          "message": "invalid hex nibble 'G' at offset 54",
+          "position": 54
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00011803",
+          "message": "unknown message bus='canA' frame_id=900000",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00011897",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00011967",
+          "message": "invalid hex nibble 'G' at offset 6",
+          "position": 6
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00012786",
+          "message": "unknown message bus='canB' frame_id=900021",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00012888",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00012964",
+          "message": "invalid hex nibble 'G' at offset 8",
+          "position": 8
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00013769",
+          "message": "unknown message bus='canA' frame_id=900005",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00013879",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00013961",
+          "message": "invalid hex nibble 'G' at offset 56",
+          "position": 56
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00014752",
+          "message": "unknown message bus='canB' frame_id=900026",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00014870",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00014958",
+          "message": "invalid hex nibble 'G' at offset 119",
+          "position": 119
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00015735",
+          "message": "unknown message bus='canA' frame_id=900010",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00015861",
+          "message": "payload length 47 != 48",
+          "position": 48
+        }
+      ],
+      "replaced": 0,
+      "total": 100000
+    },
+    "v2": {
+      "accepted": 99696,
+      "batch_size": 2000,
+      "product_sha256": "c2ca0a4ddb61ee748c803bf2b35fef9540b4c04fe1c46b86862bc32b7fbfba6f",
+      "rejected": 304,
+      "rejections": [
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00000003",
+          "message": "invalid hex nibble 'G' at offset 87",
+          "position": 87
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00000005",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00000007",
+          "message": "unknown message bus='canA' frame_id=900007",
+          "position": null
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00000990",
+          "message": "unknown message bus='canB' frame_id=900028",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00000996",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00001000",
+          "message": "invalid hex nibble 'G' at offset 125",
+          "position": 125
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00001973",
+          "message": "unknown message bus='canA' frame_id=900012",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00001987",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00001997",
+          "message": "invalid hex nibble 'G' at offset 1",
+          "position": 1
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00002956",
+          "message": "unknown message bus='canB' frame_id=900033",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00002978",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00002994",
+          "message": "invalid hex nibble 'G' at offset 78",
+          "position": 78
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00003939",
+          "message": "unknown message bus='canA' frame_id=900017",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00003969",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00003991",
+          "message": "invalid hex nibble 'G' at offset 42",
+          "position": 42
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00004922",
+          "message": "unknown message bus='canB' frame_id=900001",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00004960",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00004988",
+          "message": "invalid hex nibble 'G' at offset 39",
+          "position": 39
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00005905",
+          "message": "unknown message bus='canA' frame_id=900022",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00005951",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00005985",
+          "message": "invalid hex nibble 'G' at offset 56",
+          "position": 56
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00006888",
+          "message": "unknown message bus='canB' frame_id=900006",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00006942",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00006982",
+          "message": "invalid hex nibble 'G' at offset 0",
+          "position": 0
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00007871",
+          "message": "unknown message bus='canA' frame_id=900027",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00007933",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00007979",
+          "message": "invalid hex nibble 'G' at offset 56",
+          "position": 56
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00008854",
+          "message": "unknown message bus='canB' frame_id=900011",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00008924",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00008976",
+          "message": "invalid hex nibble 'G' at offset 1",
+          "position": 1
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00009837",
+          "message": "unknown message bus='canA' frame_id=900032",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00009915",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00009973",
+          "message": "invalid hex nibble 'G' at offset 0",
+          "position": 0
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00010820",
+          "message": "unknown message bus='canB' frame_id=900016",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00010906",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00010970",
+          "message": "invalid hex nibble 'G' at offset 54",
+          "position": 54
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00011803",
+          "message": "unknown message bus='canA' frame_id=900000",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00011897",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00011967",
+          "message": "invalid hex nibble 'G' at offset 6",
+          "position": 6
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00012786",
+          "message": "unknown message bus='canB' frame_id=900021",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00012888",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00012964",
+          "message": "invalid hex nibble 'G' at offset 8",
+          "position": 8
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00013769",
+          "message": "unknown message bus='canA' frame_id=900005",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00013879",
+          "message": "payload length 47 != 48",
+          "position": 48
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00013961",
+          "message": "invalid hex nibble 'G' at offset 56",
+          "position": 56
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00014752",
+          "message": "unknown message bus='canB' frame_id=900026",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00014870",
+          "message": "payload length 63 != 64",
+          "position": 64
+        },
+        {
+          "code": "bad_encoding",
+          "frame_event_id": "evt-00014958",
+          "message": "invalid hex nibble 'G' at offset 119",
+          "position": 119
+        },
+        {
+          "code": "unknown_message",
+          "frame_event_id": "evt-00015735",
+          "message": "unknown message bus='canA' frame_id=900010",
+          "position": null
+        },
+        {
+          "code": "bad_length",
+          "frame_event_id": "evt-00015861",
+          "message": "payload length 47 != 48",
+          "position": 48
+        }
+      ],
+      "replaced": 0,
+      "total": 100000
+    }
+  },
+  "out": "/workspace/artifacts",
+  "product_v1": {
+    "bytes": 4450727,
+    "messages": 200,
+    "sha256": "33c85539e4f719d243b6951651ac9190a43c7c16af552704eaa3f5fde8e13bc9",
+    "signals": 10000
+  },
+  "product_v2": {
+    "messages": 200,
+    "sha256": "c2ca0a4ddb61ee748c803bf2b35fef9540b4c04fe1c46b86862bc32b7fbfba6f"
+  },
+  "reopen_rederive": {
+    "frames": 497,
+    "mismatches": 0
+  },
+  "revision_samples": [
+    {
+      "frame_event_id": "evt-00000000",
+      "payload_hex": "30882000000840000080800000000000000000400000004000004000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "v1": {
+        "m000_s00": "-1",
+        "m000_s01": "-40",
+        "m000_s02": "100",
+        "m000_s03": "-7/2",
+        "m000_s04": "3/4",
+        "m000_s05": "200",
+        "m000_s06": "-13/200",
+        "m000_s07": "0",
+        "m000_s08": "-40",
+        "m000_s09": "244/5",
+        "m000_s10": "-1/2",
+        "m000_s11": "3/4",
+        "m000_s12": "801/4",
+        "m000_s13": "-1/1000",
+        "m000_s14": "0",
+        "m000_s15": "-176/3",
+        "m000_s16": "100",
+        "m000_s17": "-1/2",
+        "m000_s18": "11/100",
+        "m000_s19": "200",
+        "m000_s20": "-1/1000",
+        "m000_s24": "-3/2",
+        "m000_s26": "200",
+        "m000_s30": "12492/125",
+        "m000_s32": "3/4",
+        "m000_s36": "-159/4",
+        "m000_s38": "-1/2",
+        "m000_s42": "-16/25",
+        "m000_s44": "100",
+        "m000_s48": "-1001/1000"
+      },
+      "v2": {
+        "r2_m000_s00": "-2",
+        "r2_m000_s01": "-40",
+        "r2_m000_s02": "100",
+        "r2_m000_s03": "-13/2",
+        "r2_m000_s04": "3/4",
+        "r2_m000_s05": "200",
+        "r2_m000_s06": "-129/1000",
+        "r2_m000_s07": "0",
+        "r2_m000_s08": "-40",
+        "r2_m000_s09": "-12/5",
+        "r2_m000_s10": "-1/2",
+        "r2_m000_s11": "3/4",
+        "r2_m000_s12": "401/2",
+        "r2_m000_s13": "-1/1000",
+        "r2_m000_s14": "0",
+        "r2_m000_s15": "-232/3",
+        "r2_m000_s16": "100",
+        "r2_m000_s17": "-1/2",
+        "r2_m000_s18": "-53/100",
+        "r2_m000_s19": "200",
+        "r2_m000_s20": "-1/1000",
+        "r2_m000_s24": "-5/2",
+        "r2_m000_s26": "200",
+        "r2_m000_s30": "12484/125",
+        "r2_m000_s32": "3/4",
+        "r2_m000_s36": "-79/2",
+        "r2_m000_s38": "-1/2",
+        "r2_m000_s42": "-32/25",
+        "r2_m000_s44": "100",
+        "r2_m000_s48": "-2001/1000"
+      }
+    },
+    {
+      "frame_event_id": "evt-00000001",
+      "payload_hex": "b39701a1a1fa5158cea4026f468106b66278ea9b3ea649c6d24deeb8ac02c07302cd90204f97010a00630538b0000000",
+      "v1": {
+        "m001_s00": "-3/5",
+        "m001_s01": "77/100",
+        "m001_s02": "1603/8",
+        "m001_s03": "1749/1000",
+        "m001_s04": "5/2",
+        "m001_s05": "-9993/250",
+        "m001_s06": "177",
+        "m001_s07": "321/2",
+        "m001_s08": "1027/20",
+        "m001_s09": "4071/20",
+        "m001_s10": "253499/1000",
+        "m001_s11": "-445",
+        "m001_s12": "-85/2",
+        "m001_s13": "100001/1000",
+        "m001_s14": "-1/2",
+        "m001_s15": "15/4",
+        "m001_s16": "200",
+        "m001_s17": "259/1000",
+        "m001_s18": "9/4",
+        "m001_s19": "-171/2",
+        "m001_s20": "345",
+        "m001_s21": "-293/500",
+        "m001_s22": "44753/12",
+        "m001_s23": "1380",
+        "m001_s24": "-101/1000",
+        "m001_s25": "1/100",
+        "m001_s26": "-317/8",
+        "m001_s27": "393/4",
+        "m001_s28": "67",
+        "m001_s29": "777/1000",
+        "m001_s30": "81",
+        "m001_s31": "237999/1000",
+        "m001_s32": "92/5",
+        "m001_s33": "-3989/100",
+        "m001_s34": "2681/8",
+        "m001_s35": "-3291/4",
+        "m001_s36": "3/4",
+        "m001_s37": "100001/500",
+        "m001_s38": "-1/1000",
+        "m001_s39": "-6",
+        "m001_s40": "-191/5",
+        "m001_s41": "10043/100",
+        "m001_s42": "23/2",
+        "m001_s43": "-19",
+        "m001_s44": "2435/2",
+        "m001_s45": "39/1000",
+        "m001_s46": "9653/3",
+        "m001_s47": "867",
+        "m001_s48": "999/10",
+        "m001_s49": "-12/25"
+      },
+      "v2": {
+        "r2_m001_s00": "-7/10",
+        "r2_m001_s01": "79/100",
+        "r2_m001_s02": "803/4",
+        "r2_m001_s03": "3499/1000",
+        "r2_m001_s04": "5",
+        "r2_m001_s05": "-4993/125",
+        "r2_m001_s06": "254",
+        "r2_m001_s07": "643/2",
+        "r2_m001_s08": "2039/20",
+        "r2_m001_s09": "2071/10",
+        "r2_m001_s10": "506999/1000",
+        "r2_m001_s11": "-890",
+        "r2_m001_s12": "-45",
+        "r2_m001_s13": "50001/500",
+        "r2_m001_s14": "-1/2",
+        "r2_m001_s15": "27/4",
+        "r2_m001_s16": "200",
+        "r2_m001_s17": "519/1000",
+        "r2_m001_s18": "9/2",
+        "r2_m001_s19": "-131",
+        "r2_m001_s20": "590",
+        "r2_m001_s21": "-84/125",
+        "r2_m001_s22": "89497/12",
+        "r2_m001_s23": "2560",
+        "r2_m001_s24": "-201/1000",
+        "r2_m001_s25": "1/50",
+        "r2_m001_s26": "-157/4",
+        "r2_m001_s27": "193/2",
+        "r2_m001_s28": "269/2",
+        "r2_m001_s29": "201/250",
+        "r2_m001_s30": "-38",
+        "r2_m001_s31": "475999/1000",
+        "r2_m001_s32": "184/5",
+        "r2_m001_s33": "-1989/50",
+        "r2_m001_s34": "2281/4",
+        "r2_m001_s35": "-1645",
+        "r2_m001_s36": "3/4",
+        "r2_m001_s37": "50001/250",
+        "r2_m001_s38": "-1/1000",
+        "r2_m001_s39": "-12",
+        "r2_m001_s40": "-182/5",
+        "r2_m001_s41": "5043/50",
+        "r2_m001_s42": "47/2",
+        "r2_m001_s43": "-155/4",
+        "r2_m001_s44": "2235",
+        "r2_m001_s45": "79/1000",
+        "r2_m001_s46": "19306/3",
+        "r2_m001_s47": "1774",
+        "r2_m001_s48": "499/5",
+        "r2_m001_s49": "-23/50"
+      }
+    },
+    {
+      "frame_event_id": "evt-00000002",
+      "payload_hex": "e2c2447bbbb020eea73d8e827264c9e3596f54388748be79703d3000000000000150000000000000000000000000000000000000000000000000000000000000",
+      "v1": {
+        "m002_s00": "-1/1000",
+        "m002_s01": "9/8",
+        "m002_s02": "-81/2",
+        "m002_s03": "90",
+        "m002_s04": "-62/125",
+        "m002_s05": "4730239/4",
+        "m002_s06": "232",
+        "m002_s07": "23799/1000",
+        "m002_s08": "423/100",
+        "m002_s09": "-841/4",
+        "m002_s10": "-369/2",
+        "m002_s11": "16149/2",
+        "m002_s12": "749/1000",
+        "m002_s13": "607/3",
+        "m002_s14": "-1/1000",
+        "m002_s15": "3/10",
+        "m002_s16": "-1999/50",
+        "m002_s17": "10536959/8",
+        "m002_s18": "-29/2",
+        "m002_s19": "1353/4",
+        "m002_s22": "1608",
+        "m002_s25": "5/8",
+        "m002_s28": "11/1000",
+        "m002_s31": "524/5",
+        "m002_s34": "-1047/4",
+        "m002_s37": "-113/3",
+        "m002_s40": "19/25",
+        "m002_s43": "105/2",
+        "m002_s46": "3931/2",
+        "m002_s49": "-1/1000"
+      },
+      "v2": {
+        "r2_m002_s00": "-1/1000",
+        "r2_m002_s01": "9/4",
+        "r2_m002_s02": "-41",
+        "r2_m002_s03": "80",
+        "r2_m002_s04": "-123/250",
+        "r2_m002_s05": "9460475/4",
+        "r2_m002_s06": "264",
+        "r2_m002_s07": "47599/1000",
+        "r2_m002_s08": "423/50",
+        "r2_m002_s09": "-761/2",
+        "r2_m002_s10": "-469",
+        "r2_m002_s11": "32299/2",
+        "r2_m002_s12": "187/250",
+        "r2_m002_s13": "614/3",
+        "r2_m002_s14": "-1/1000",
+        "r2_m002_s15": "3/5",
+        "r2_m002_s16": "-999/25",
+        "r2_m002_s17": "10536559/4",
+        "r2_m002_s18": "-57/2",
+        "r2_m002_s19": "2703/4",
+        "r2_m002_s22": "3216",
+        "r2_m002_s25": "7/4",
+        "r2_m002_s28": "23/1000",
+        "r2_m002_s31": "548/5",
+        "r2_m002_s34": "-1447/2",
+        "r2_m002_s37": "-106/3",
+        "r2_m002_s40": "77/100",
+        "r2_m002_s43": "105",
+        "r2_m002_s46": "7863/2",
+        "r2_m002_s49": "-1/1000"
+      }
+    },
+    {
+      "frame_event_id": "evt-00000004",
+      "payload_hex": "c0fc4a965a5e6cc540b52299d539a6358c46405eaa87017d24002178000000000000000000000000000000000000000000000000000000000000000000000000",
+      "v1": {
+        "m004_s00": "200",
+        "m004_s01": "7499/1000",
+        "m004_s02": "1/250",
+        "m004_s03": "-127/3",
+        "m004_s04": "110",
+        "m004_s05": "61584",
+        "m004_s06": "11/20",
+        "m004_s07": "2191/8",
+        "m004_s08": "-80001/1000",
+        "m004_s09": "345",
+        "m004_s10": "-39531/1000",
+        "m004_s11": "18913/3",
+        "m004_s12": "-1/2",
+        "m004_s13": "17/20",
+        "m004_s14": "10003/50",
+        "m004_s15": "-469/250",
+        "m004_s16": "-25/4",
+        "m004_s17": "14543570",
+        "m004_s18": "49983/500",
+        "m004_s19": "2377/6",
+        "m004_s20": "1567/4",
+        "m004_s24": "-159/4",
+        "m004_s26": "-249/500",
+        "m004_s30": "-3/100",
+        "m004_s32": "82",
+        "m004_s36": "-1/1000",
+        "m004_s38": "-3993/100",
+        "m004_s42": "200033/1000",
+        "m004_s44": "240",
+        "m004_s48": "1"
+      },
+      "v2": {
+        "r2_m004_s00": "200",
+        "r2_m004_s01": "14999/1000",
+        "r2_m004_s02": "1/125",
+        "r2_m004_s03": "-134/3",
+        "r2_m004_s04": "120",
+        "r2_m004_s05": "246337/2",
+        "r2_m004_s06": "7/20",
+        "r2_m004_s07": "1391/4",
+        "r2_m004_s08": "-160001/1000",
+        "r2_m004_s09": "690",
+        "r2_m004_s10": "-19531/500",
+        "r2_m004_s11": "37526/3",
+        "r2_m004_s12": "-1/2",
+        "r2_m004_s13": "19/20",
+        "r2_m004_s14": "5003/25",
+        "r2_m004_s15": "-3751/1000",
+        "r2_m004_s16": "-25/2",
+        "r2_m004_s17": "29087180",
+        "r2_m004_s18": "24983/250",
+        "r2_m004_s19": "4757/6",
+        "r2_m004_s20": "3131/4",
+        "r2_m004_s24": "-79/2",
+        "r2_m004_s26": "-62/125",
+        "r2_m004_s30": "-3/50",
+        "r2_m004_s32": "64",
+        "r2_m004_s36": "-1/1000",
+        "r2_m004_s38": "-1993/50",
+        "r2_m004_s42": "100033/500",
+        "r2_m004_s44": "480",
+        "r2_m004_s48": "5/4"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "frame_event_id": "evt-00000000",
+      "message": [
+        "canA",
+        1000
+      ],
+      "payload_hex": "30882000000840000080800000000000000000400000004000004000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "reference_matches_store": {
+        "m000_s00": true,
+        "m000_s01": true,
+        "m000_s02": true,
+        "m000_s03": true,
+        "m000_s04": true,
+        "m000_s05": true,
+        "m000_s06": true,
+        "m000_s07": true,
+        "m000_s08": true,
+        "m000_s09": true,
+        "m000_s10": true,
+        "m000_s11": true,
+        "m000_s12": true,
+        "m000_s13": true,
+        "m000_s14": true,
+        "m000_s15": true,
+        "m000_s16": true,
+        "m000_s17": true,
+        "m000_s18": true,
+        "m000_s19": true,
+        "m000_s20": true,
+        "m000_s24": true,
+        "m000_s26": true,
+        "m000_s30": true,
+        "m000_s32": true,
+        "m000_s36": true,
+        "m000_s38": true,
+        "m000_s42": true,
+        "m000_s44": true,
+        "m000_s48": true
+      },
+      "reference_signals": {
+        "m000_s00": "-1",
+        "m000_s01": "-40",
+        "m000_s02": "100",
+        "m000_s03": "-7/2",
+        "m000_s04": "3/4",
+        "m000_s05": "200",
+        "m000_s06": "-13/200",
+        "m000_s07": "0",
+        "m000_s08": "-40",
+        "m000_s09": "244/5",
+        "m000_s10": "-1/2",
+        "m000_s11": "3/4",
+        "m000_s12": "801/4",
+        "m000_s13": "-1/1000",
+        "m000_s14": "0",
+        "m000_s15": "-176/3",
+        "m000_s16": "100",
+        "m000_s17": "-1/2",
+        "m000_s18": "11/100",
+        "m000_s19": "200",
+        "m000_s20": "-1/1000",
+        "m000_s24": "-3/2",
+        "m000_s26": "200",
+        "m000_s30": "12492/125",
+        "m000_s32": "3/4",
+        "m000_s36": "-159/4",
+        "m000_s38": "-1/2",
+        "m000_s42": "-16/25",
+        "m000_s44": "100",
+        "m000_s48": "-1001/1000"
+      },
+      "selector": 0,
+      "stored_signals": {
+        "m000_s00": [
+          -1,
+          "-1"
+        ],
+        "m000_s01": [
+          0,
+          "-40"
+        ],
+        "m000_s02": [
+          0,
+          "100"
+        ],
+        "m000_s03": [
+          -8,
+          "-7/2"
+        ],
+        "m000_s04": [
+          0,
+          "3/4"
+        ],
+        "m000_s05": [
+          0,
+          "200"
+        ],
+        "m000_s06": [
+          -64,
+          "-13/200"
+        ],
+        "m000_s07": [
+          0,
+          "0"
+        ],
+        "m000_s08": [
+          0,
+          "-40"
+        ],
+        "m000_s09": [
+          -512,
+          "244/5"
+        ],
+        "m000_s10": [
+          0,
+          "-1/2"
+        ],
+        "m000_s11": [
+          0,
+          "3/4"
+        ],
+        "m000_s12": [
+          -1,
+          "801/4"
+        ],
+        "m000_s13": [
+          0,
+          "-1/1000"
+        ],
+        "m000_s14": [
+          0,
+          "0"
+        ],
+        "m000_s15": [
+          -8,
+          "-176/3"
+        ],
+        "m000_s16": [
+          0,
+          "100"
+        ],
+        "m000_s17": [
+          0,
+          "-1/2"
+        ],
+        "m000_s18": [
+          -64,
+          "11/100"
+        ],
+        "m000_s19": [
+          0,
+          "200"
+        ],
+        "m000_s20": [
+          0,
+          "-1/1000"
+        ],
+        "m000_s24": [
+          -1,
+          "-3/2"
+        ],
+        "m000_s26": [
+          0,
+          "200"
+        ],
+        "m000_s30": [
+          -64,
+          "12492/125"
+        ],
+        "m000_s32": [
+          0,
+          "3/4"
+        ],
+        "m000_s36": [
+          -1,
+          "-159/4"
+        ],
+        "m000_s38": [
+          0,
+          "-1/2"
+        ],
+        "m000_s42": [
+          -64,
+          "-16/25"
+        ],
+        "m000_s44": [
+          0,
+          "100"
+        ],
+        "m000_s48": [
+          -1,
+          "-1001/1000"
+        ]
+      },
+      "window": {
+        "count": 497,
+        "first_frame": "evt-00000000",
+        "last_frame": "evt-00099800",
+        "mean": "-257/497",
+        "signal": "m000_s00",
+        "sum": "-257"
+      }
+    },
+    {
+      "frame_event_id": "evt-00000001",
+      "message": [
+        "canB",
+        1001
+      ],
+      "payload_hex": "b39701a1a1fa5158cea4026f468106b66278ea9b3ea649c6d24deeb8ac02c07302cd90204f97010a00630538b0000000",
+      "reference_matches_store": {
+        "m001_s00": true,
+        "m001_s01": true,
+        "m001_s02": true,
+        "m001_s03": true,
+        "m001_s04": true,
+        "m001_s05": true,
+        "m001_s06": true,
+        "m001_s07": true,
+        "m001_s08": true,
+        "m001_s09": true,
+        "m001_s10": true,
+        "m001_s11": true,
+        "m001_s12": true,
+        "m001_s13": true,
+        "m001_s14": true,
+        "m001_s15": true,
+        "m001_s16": true,
+        "m001_s17": true,
+        "m001_s18": true,
+        "m001_s19": true,
+        "m001_s20": true,
+        "m001_s21": true,
+        "m001_s22": true,
+        "m001_s23": true,
+        "m001_s24": true,
+        "m001_s25": true,
+        "m001_s26": true,
+        "m001_s27": true,
+        "m001_s28": true,
+        "m001_s29": true,
+        "m001_s30": true,
+        "m001_s31": true,
+        "m001_s32": true,
+        "m001_s33": true,
+        "m001_s34": true,
+        "m001_s35": true,
+        "m001_s36": true,
+        "m001_s37": true,
+        "m001_s38": true,
+        "m001_s39": true,
+        "m001_s40": true,
+        "m001_s41": true,
+        "m001_s42": true,
+        "m001_s43": true,
+        "m001_s44": true,
+        "m001_s45": true,
+        "m001_s46": true,
+        "m001_s47": true,
+        "m001_s48": true,
+        "m001_s49": true
+      },
+      "reference_signals": {
+        "m001_s00": "-3/5",
+        "m001_s01": "77/100",
+        "m001_s02": "1603/8",
+        "m001_s03": "1749/1000",
+        "m001_s04": "5/2",
+        "m001_s05": "-9993/250",
+        "m001_s06": "177",
+        "m001_s07": "321/2",
+        "m001_s08": "1027/20",
+        "m001_s09": "4071/20",
+        "m001_s10": "253499/1000",
+        "m001_s11": "-445",
+        "m001_s12": "-85/2",
+        "m001_s13": "100001/1000",
+        "m001_s14": "-1/2",
+        "m001_s15": "15/4",
+        "m001_s16": "200",
+        "m001_s17": "259/1000",
+        "m001_s18": "9/4",
+        "m001_s19": "-171/2",
+        "m001_s20": "345",
+        "m001_s21": "-293/500",
+        "m001_s22": "44753/12",
+        "m001_s23": "1380",
+        "m001_s24": "-101/1000",
+        "m001_s25": "1/100",
+        "m001_s26": "-317/8",
+        "m001_s27": "393/4",
+        "m001_s28": "67",
+        "m001_s29": "777/1000",
+        "m001_s30": "81",
+        "m001_s31": "237999/1000",
+        "m001_s32": "92/5",
+        "m001_s33": "-3989/100",
+        "m001_s34": "2681/8",
+        "m001_s35": "-3291/4",
+        "m001_s36": "3/4",
+        "m001_s37": "100001/500",
+        "m001_s38": "-1/1000",
+        "m001_s39": "-6",
+        "m001_s40": "-191/5",
+        "m001_s41": "10043/100",
+        "m001_s42": "23/2",
+        "m001_s43": "-19",
+        "m001_s44": "2435/2",
+        "m001_s45": "39/1000",
+        "m001_s46": "9653/3",
+        "m001_s47": "867",
+        "m001_s48": "999/10",
+        "m001_s49": "-12/25"
+      },
+      "selector": null,
+      "stored_signals": {
+        "m001_s00": [
+          -1,
+          "-3/5"
+        ],
+        "m001_s01": [
+          2,
+          "77/100"
+        ],
+        "m001_s02": [
+          1,
+          "1603/8"
+        ],
+        "m001_s03": [
+          -7,
+          "1749/1000"
+        ],
+        "m001_s04": [
+          1,
+          "5/2"
+        ],
+        "m001_s05": [
+          28,
+          "-9993/250"
+        ],
+        "m001_s06": [
+          33,
+          "177"
+        ],
+        "m001_s07": [
+          161,
+          "321/2"
+        ],
+        "m001_s08": [
+          506,
+          "1027/20"
+        ],
+        "m001_s09": [
+          355,
+          "4071/20"
+        ],
+        "m001_s10": [
+          676,
+          "253499/1000"
+        ],
+        "m001_s11": [
+          1780,
+          "-445"
+        ],
+        "m001_s12": [
+          -1,
+          "-85/2"
+        ],
+        "m001_s13": [
+          1,
+          "100001/1000"
+        ],
+        "m001_s14": [
+          0,
+          "-1/2"
+        ],
+        "m001_s15": [
+          3,
+          "15/4"
+        ],
+        "m001_s16": [
+          0,
+          "200"
+        ],
+        "m001_s17": [
+          26,
+          "259/1000"
+        ],
+        "m001_s18": [
+          6,
+          "9/4"
+        ],
+        "m001_s19": [
+          182,
+          "-171/2"
+        ],
+        "m001_s20": [
+          98,
+          "345"
+        ],
+        "m001_s21": [
+          -86,
+          "-293/500"
+        ],
+        "m001_s22": [
+          1598,
+          "44753/12"
+        ],
+        "m001_s23": [
+          1180,
+          "1380"
+        ],
+        "m001_s24": [
+          -1,
+          "-101/1000"
+        ],
+        "m001_s25": [
+          1,
+          "1/100"
+        ],
+        "m001_s26": [
+          1,
+          "-317/8"
+        ],
+        "m001_s27": [
+          7,
+          "393/4"
+        ],
+        "m001_s28": [
+          27,
+          "67"
+        ],
+        "m001_s29": [
+          27,
+          "777/1000"
+        ],
+        "m001_s30": [
+          -51,
+          "81"
+        ],
+        "m001_s31": [
+          238,
+          "237999/1000"
+        ],
+        "m001_s32": [
+          184,
+          "92/5"
+        ],
+        "m001_s33": [
+          11,
+          "-3989/100"
+        ],
+        "m001_s34": [
+          627,
+          "2681/8"
+        ],
+        "m001_s35": [
+          3289,
+          "-3291/4"
+        ],
+        "m001_s36": [
+          0,
+          "3/4"
+        ],
+        "m001_s37": [
+          2,
+          "100001/500"
+        ],
+        "m001_s38": [
+          0,
+          "-1/1000"
+        ],
+        "m001_s39": [
+          -6,
+          "-6"
+        ],
+        "m001_s40": [
+          18,
+          "-191/5"
+        ],
+        "m001_s41": [
+          43,
+          "10043/100"
+        ],
+        "m001_s42": [
+          32,
+          "23/2"
+        ],
+        "m001_s43": [
+          79,
+          "-19"
+        ],
+        "m001_s44": [
+          407,
+          "2435/2"
+        ],
+        "m001_s45": [
+          40,
+          "39/1000"
+        ],
+        "m001_s46": [
+          1379,
+          "9653/3"
+        ],
+        "m001_s47": [
+          907,
+          "867"
+        ],
+        "m001_s48": [
+          -1,
+          "999/10"
+        ],
+        "m001_s49": [
+          2,
+          "-12/25"
+        ]
+      },
+      "window": {
+        "count": 500,
+        "first_frame": "evt-00000001",
+        "last_frame": "evt-00099801",
+        "mean": "-2749/5000",
+        "signal": "m001_s00",
+        "sum": "-2749/10"
+      }
+    },
+    {
+      "frame_event_id": "evt-00000002",
+      "message": [
+        "canA",
+        1002
+      ],
+      "payload_hex": "e2c2447bbbb020eea73d8e827264c9e3596f54388748be79703d3000000000000150000000000000000000000000000000000000000000000000000000000000",
+      "reference_matches_store": {
+        "m002_s00": true,
+        "m002_s01": true,
+        "m002_s02": true,
+        "m002_s03": true,
+        "m002_s04": true,
+        "m002_s05": true,
+        "m002_s06": true,
+        "m002_s07": true,
+        "m002_s08": true,
+        "m002_s09": true,
+        "m002_s10": true,
+        "m002_s11": true,
+        "m002_s12": true,
+        "m002_s13": true,
+        "m002_s14": true,
+        "m002_s15": true,
+        "m002_s16": true,
+        "m002_s17": true,
+        "m002_s18": true,
+        "m002_s19": true,
+        "m002_s22": true,
+        "m002_s25": true,
+        "m002_s28": true,
+        "m002_s31": true,
+        "m002_s34": true,
+        "m002_s37": true,
+        "m002_s40": true,
+        "m002_s43": true,
+        "m002_s46": true,
+        "m002_s49": true
+      },
+      "reference_signals": {
+        "m002_s00": "-1/1000",
+        "m002_s01": "9/8",
+        "m002_s02": "-81/2",
+        "m002_s03": "90",
+        "m002_s04": "-62/125",
+        "m002_s05": "4730239/4",
+        "m002_s06": "232",
+        "m002_s07": "23799/1000",
+        "m002_s08": "423/100",
+        "m002_s09": "-841/4",
+        "m002_s10": "-369/2",
+        "m002_s11": "16149/2",
+        "m002_s12": "749/1000",
+        "m002_s13": "607/3",
+        "m002_s14": "-1/1000",
+        "m002_s15": "3/10",
+        "m002_s16": "-1999/50",
+        "m002_s17": "10536959/8",
+        "m002_s18": "-29/2",
+        "m002_s19": "1353/4",
+        "m002_s22": "1608",
+        "m002_s25": "5/8",
+        "m002_s28": "11/1000",
+        "m002_s31": "524/5",
+        "m002_s34": "-1047/4",
+        "m002_s37": "-113/3",
+        "m002_s40": "19/25",
+        "m002_s43": "105/2",
+        "m002_s46": "3931/2",
+        "m002_s49": "-1/1000"
+      },
+      "selector": 2,
+      "stored_signals": {
+        "m002_s00": [
+          0,
+          "-1/1000"
+        ],
+        "m002_s01": [
+          3,
+          "9/8"
+        ],
+        "m002_s02": [
+          2,
+          "-81/2"
+        ],
+        "m002_s03": [
+          -4,
+          "90"
+        ],
+        "m002_s04": [
+          4,
+          "-62/125"
+        ],
+        "m002_s05": [
+          506811,
+          "4730239/4"
+        ],
+        "m002_s06": [
+          32,
+          "232"
+        ],
+        "m002_s07": [
+          238,
+          "23799/1000"
+        ],
+        "m002_s08": [
+          423,
+          "423/100"
+        ],
+        "m002_s09": [
+          -454,
+          "-841/4"
+        ],
+        "m002_s10": [
+          1138,
+          "-369/2"
+        ],
+        "m002_s11": [
+          3230,
+          "16149/2"
+        ],
+        "m002_s12": [
+          -1,
+          "749/1000"
+        ],
+        "m002_s13": [
+          1,
+          "607/3"
+        ],
+        "m002_s14": [
+          0,
+          "-1/1000"
+        ],
+        "m002_s15": [
+          3,
+          "3/10"
+        ],
+        "m002_s16": [
+          2,
+          "-1999/50"
+        ],
+        "m002_s17": [
+          3512053,
+          "10536959/8"
+        ],
+        "m002_s18": [
+          56,
+          "-29/2"
+        ],
+        "m002_s19": [
+          135,
+          "1353/4"
+        ],
+        "m002_s22": [
+          1608,
+          "1608"
+        ],
+        "m002_s25": [
+          3,
+          "5/8"
+        ],
+        "m002_s28": [
+          12,
+          "11/1000"
+        ],
+        "m002_s31": [
+          48,
+          "524/5"
+        ],
+        "m002_s34": [
+          1847,
+          "-1047/4"
+        ],
+        "m002_s37": [
+          1,
+          "-113/3"
+        ],
+        "m002_s40": [
+          1,
+          "19/25"
+        ],
+        "m002_s43": [
+          21,
+          "105/2"
+        ],
+        "m002_s46": [
+          1966,
+          "3931/2"
+        ],
+        "m002_s49": [
+          0,
+          "-1/1000"
+        ]
+      },
+      "window": {
+        "count": 498,
+        "first_frame": "evt-00000002",
+        "last_frame": "evt-00099802",
+        "mean": "-707/124500",
+        "signal": "m002_s00",
+        "sum": "-707/250"
+      }
+    }
+  ],
+  "seed": 20261118,
+  "timings_seconds": {
+    "ingest_v1": 17.417,
+    "ingest_v2": 17.969,
+    "load_products": 0.25,
+    "reopen_rederive": 0.312,
+    "sample_queries": 0.175
+  }
+}

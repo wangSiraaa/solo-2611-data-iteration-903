@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+artifacts/*.db-wal
+artifacts/*.db-shm
